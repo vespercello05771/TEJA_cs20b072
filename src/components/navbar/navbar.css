@@ -1,0 +1,77 @@
+ol,ul{
+  list-style: none;
+}
+
+nav{
+  height:80px;
+  background-color:#121111;
+
+}
+#logopic{
+  position: relative;
+  left:150px;
+  top:20px;
+}
+#Contents{
+  position: relative;
+  left:700px;
+  bottom: 30px;
+
+}
+
+ul#Contents li{
+  display: block;
+  width:120px;
+  float:left;
+  margin-left: 2px;
+}
+
+ul#Contents li button{
+  display:block;
+}
+.dropbtn {
+  background-color: #121111;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropbtn:hover + .droplist{
+  display: inline-block;
+  position: absolute;
+  background-color: #d62946;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.droplist:hover{
+  display: inline-block;
+  position: absolute;
+  background-color: #d62946;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.droplist a {
+  color: white;
+  font-family:'Secular One', sans-serif;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn-shop{
+  position: relative;
+  bottom:7px;
+  background-color:#d62946 ;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 16px;
+  height:45px;
+  border-radius: 5px;
+  border:none;
+}
